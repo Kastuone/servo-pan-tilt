@@ -6,7 +6,7 @@ import time
 import math
 
 # YOLO modelini yükle
-model = YOLO(r"C:\Users\Tamer\atlas_hedef_latest\exp15\weights\best.pt")
+model = YOLO("models/best.pt")
 
 class PanTiltController:
     def __init__(self, esp32_ip="192.168.43.185"):
